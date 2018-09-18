@@ -1,0 +1,35 @@
+.container{
+    height: 500px;
+    display: flex;
+    flex-direction: raw;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+p{
+    margin: 20%;
+    font-size: 25pt;
+    color: #fff;
+}
+
+.item-1, .item-2, .item-3{
+    width: 300px;
+    height: 300px;
+    border: 3px solid red;
+}
+
+.item-1{
+    background: red;
+    order: 3;
+    flex-grow: 1;
+}
+
+.item-2{
+    background: green;
+    order: 1;
+    flex-grow: 3;
+}
+.item-3{
+    background: yellow;
+    order: 2;
+    flex-grow: 10;
+}
